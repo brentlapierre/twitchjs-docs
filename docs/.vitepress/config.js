@@ -7,6 +7,7 @@ function getChatSidebar () {
       text: 'Chat',
       children: [
         { text: 'Getting Started', link: '/chat/getting_started' },
+        { text: 'Commands', link: '/chat/commands' },
       ],
     },
     {
