@@ -1,5 +1,38 @@
 # Chat: Commands
 
+## Add Command
+Adds a chat command.
+
+#### Types
+| Argument | Type     |
+| -------- | -------- |
+| name     | string   |
+| access   | string   |
+| function | function |
+
+#### Example
+```js
+await chat.addCommand(command, access, function);
+```
+## Get Joined Channels
+Gets a list of joined channels.
+
+#### Example
+```js
+await chat.getChannels();
+```
+## In Channel
+Checks if in the given channel.
+
+#### Types
+| Argument | Type   |
+| -------- | ------ |
+| channel  | string |
+
+#### Example
+```js
+await chat.inChannel(channel);
+```
 ## Action
 Sends a `/me` message to the channel.
 
