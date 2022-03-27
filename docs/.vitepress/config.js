@@ -23,7 +23,12 @@ function getChatSidebar () {
 export default defineConfig({
   title: 'Twitch.js Docs',
   description: '',
+  repo: 'brentlapierre/twitchjs-docs',
   themeConfig: {
+    nav: [
+      { text: 'twitch.js', link: 'https://github.com/brentlapierre/twitch.js' },
+      { text: 'GitHub', link: 'https://github.com/brentlapierre/twitchjs-docs' },
+    ],
     sidebar: {
       '/': getChatSidebar(),
     },
