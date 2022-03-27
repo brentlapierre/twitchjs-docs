@@ -26,3 +26,8 @@ chat.connect(options);
 | rateLimit.joins    | number  | The number of channel joins permitted every 60 seconds. |
 | rateLimit.messages | number  | The number of messages permitted every 60 seconds.      |
 | development        | boolean | Enables detailed logging.                               |
+
+## Disconnect
+```js
+chat.dsconnect();
+```
